@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="title">资讯早知道-交易所公告</div>
+            <div class="desc">当前支持的交易所：火币，币安</div>
+            <div class="form">
+                <div class="row"><span>邮箱</span><input type="text" id="email" placeholder="输入邮箱获得提醒" /></div>
+                <div class="row"><span>短信</span><input type="text" placeholder="短信提醒研发中" disabled="disabled" /></div>
+                <div class="row"><span>微信</span><input type="text" placeholder="微信提醒研发中" disabled="disabled" /></div>
+            </div>
+            <div class="package">
+                <span class="col">当前订购</span>
+                <!--<ul>
+                    <li><span>邮箱提醒</span><span>限时免费</span><span>√</span></li>
+                    <li><span>短信提醒</span><span>0.1NAS/月</span><span>×</span></li>
+                    <li><span>微信提醒</span><span>0.1NAS/月</span><span>×</span></li>
+                </ul>-->
+                <table>
+                    <tr>
+                        <td>邮箱提醒</td>
+                        <td>限时免费/月</td>
+                        <td style="text-align:center">√</td>
+                    </tr>
+                    <tr>
+                        <td>短信提醒</td>
+                        <td>0.1NAS/月</td>
+                        <td style="text-align:center">×</td>
+                    </tr>
+                    <tr>
+                        <td>微信提醒</td>
+                        <td>0.1NAS/月</td>
+                        <td style="text-align:center">×</td>
+                    </tr>
+                </table>
+                <div class="total_price">总金额：<span>限时免费</span></div>
+            </div>
+            <div class="last_remind">
+                <span class="col">最近推送</span>
+                <div class="info_title">火币全球专业站将于6月7日16:30上线门罗币 (XMR)</div>
+                <div class="info_content">
+                    尊敬的用户：
+
+                    火币全球专业站定于新加坡时间6月7日16:30 Monero (XMR)充值业务。6月8日16:00在主区开放XMR /BTC, XMR/ETH交易。6月10日16:00开放 XMR提现业务。
+
+
+                    点此查看 Monero币种资料：https://www.huobipro.com/zh-cn/assetintro/#xmr
+
+                    风险提示：
+                    数字资产是创新的投资产品，价格波动较大，请您理性判断自己的投资能力，审慎做出投资决策。
+
+                    祝您交易愉快！
+
+                    火币Pro官方中文群 (Telegram群)：https://t.me/huobiofficial
+
+                    火币全球专业站
+                    2018年6月7日
+                </div>
+            </div>
+            <button class="submit" type="button" id="addSub">开启通知(免费)</button>
+        </div>
+        <div class="footer">
+            联系作者(wechat)：toseeme8
+            <div>本页面支持PC和手机端，基于星云区块链的资讯聚合提醒服务</div>
+            <div>火币的公告内容经常会涉嫌垃圾邮件，而导致发送不成功</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nebPay.js"></script>
+    <script type="text/javascript" src="js/nebulas.js"></script>
+    <script type="text/javascript" src="js/dapp.js"></script>
+</body>
+</html>
